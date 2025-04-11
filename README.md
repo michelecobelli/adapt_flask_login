@@ -117,5 +117,5 @@ MIT License — free to use and adapt.
 
 ## 👤 Created By
 
-**Your Name / Team**  
-📫 Reach out via GitHub or email
+**Michele - IAAC 
+📫 Reach out via GitHub or michele.cobelli@students.iaac.net
