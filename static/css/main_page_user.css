@@ -1,0 +1,408 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.top-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1320px;
+  position: relative;
+  width: 1920px;
+  height: 194px;
+  margin: 0 0 0 0;
+  padding: 27px 90px 27px 90px;
+  z-index: 15;
+  overflow: hidden;
+}
+.group {
+  flex-shrink: 0;
+  position: relative;
+  width: 253px;
+  height: 55px;
+  z-index: 16;
+}
+.screenshot {
+  position: absolute;
+  width: 64px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-11/MXTmEPYVr4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.adapt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 48px;
+  top: 0;
+  left: 80px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: left;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #ffffff, #1c62a5);
+  z-index: 18;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.share-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 12px;
+  position: relative;
+  width: 192px;
+  height: 60px;
+  background: #1c65aa;
+  z-index: 19;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.share {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 281px;
+  height: 28px;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 20;
+}
+.project-page {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 52px;
+  position: relative;
+  width: 1920px;
+  height: 886px;
+  margin: 0 0 0 0;
+  padding: 10px 68px 54px 75px;
+  z-index: 1;
+  overflow: hidden;
+}
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 30px;
+  position: relative;
+  width: 380px;
+  height: 840px;
+  padding: 0 0 30px 0;
+  z-index: 2;
+  overflow: hidden;
+  border-radius: 40px;
+  backdrop-filter: blur(2px);
+}
+.welcome-back {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 380px;
+  min-width: 0;
+  height: 164px;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 93.92px;
+  text-align: left;
+  z-index: 3;
+}
+.michele {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 380px;
+  min-width: 0;
+  height: 220px;
+  font-family: Arizonia, var(--default-font-family);
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 112.5px;
+  text-align: left;
+  background: linear-gradient(90deg, #ffffff, #1c62a5);
+  z-index: 4;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 380px;
+  height: 400px;
+  padding: 30px 30px 30px 30px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 5;
+  overflow: hidden;
+  border-radius: 40px;
+  backdrop-filter: blur(2px);
+}
+.describe-your-project {
+  flex-shrink: 0;
+  position: relative;
+  width: 249px;
+  height: 117px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 6;
+}
+.describe-your {
+  position: relative;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46.96px;
+  text-align: left;
+}
+.project {
+  position: relative;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46.96px;
+  text-align: left;
+}
+.insert-text-here {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 180px;
+  height: 56px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Raleway, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.176px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 7;
+  overflow: hidden;
+}
+.group-1 {
+  flex-shrink: 0;
+  position: relative;
+  width: 380px;
+  height: 844px;
+  z-index: 8;
+  border-radius: 40px;
+}
+.ideation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 380px;
+  height: 400px;
+  margin: 0 0 0 0;
+  padding: 30px 30px 30px 30px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 9;
+  overflow: hidden;
+  border-radius: 40px;
+  backdrop-filter: blur(2px);
+}
+.concept-ideation {
+  flex-shrink: 0;
+  position: relative;
+  width: 187px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: left;
+  z-index: 10;
+}
+.concept {
+  position: relative;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46.96px;
+  text-align: left;
+}
+.ideation-2 {
+  position: relative;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46.96px;
+  text-align: left;
+}
+.location-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 380px;
+  height: 400px;
+  margin: 44px 0 0 0;
+  padding: 30px 30px 30px 30px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 11;
+  overflow: hidden;
+  border-radius: 40px;
+  backdrop-filter: blur(2px);
+}
+.statistics-suggestions {
+  flex-shrink: 0;
+  position: relative;
+  width: 284px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: left;
+  z-index: 12;
+}
+.statistics {
+  position: relative;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46.96px;
+  text-align: left;
+}
+.suggestions-4 {
+  position: relative;
+  color: #ffffff;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46.96px;
+  text-align: left;
+}
+.simulation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 913px;
+  height: 840px;
+  padding: 30px 30px 30px 30px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-11/omyNSReNj8.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.85;
+  z-index: 13;
+  overflow: hidden;
+  border-radius: 40px;
+  backdrop-filter: blur(2px);
+}
+.environmental-simulation {
+  flex-shrink: 0;
+  position: relative;
+  width: 414px;
+  height: 225px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: left;
+  z-index: 14;
+}
+.environmental {
+  position: relative;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46.96px;
+  text-align: left;
+  background: linear-gradient(180deg, #26384b, #5984b1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.simulation-5 {
+  position: relative;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46.96px;
+  text-align: left;
+  background: linear-gradient(180deg, #26384b, #5984b1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.screenshot-6 {
+  position: absolute;
+  width: 1945px;
+  height: 1263px;
+  top: -94px;
+  left: -17px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-11/MzfxnTwsaS.png)
+    no-repeat center;
+  background-size: cover;
+}
